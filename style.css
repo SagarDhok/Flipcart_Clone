@@ -1,0 +1,190 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     background-color:  rgb(240, 240, 240);
+}
+
+header{
+     background-color: white;
+     height: 80px;
+}
+
+
+nav{
+     display: flex;
+}
+
+.logo{
+   margin: 20px 10px;;
+     align-items: center;
+
+}
+
+.logo img{
+     height: 40px;
+}
+
+.search{
+     display: flex;
+     margin: 17px 5px;
+
+}
+
+
+.search input{
+  height: 35px;
+  width: 700px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  background-color: rgba(228, 242, 255, 0.32);;
+
+}
+
+span img{
+     height: 23px;
+     margin: -15px -30px;
+     border-radius: 3px;
+}
+
+.login{
+     margin: 26px 28px;
+  height: 25px;
+}
+
+.login img{
+     margin: -10px 4px;
+ height: 30px;
+}
+
+.cart{
+     margin: 26px 28px;
+  height: 25px;
+}
+
+.cart img{
+     margin: -10px 4px;
+ height: 30px;
+}
+
+.seller{
+     margin: 26px 28px;
+  height: 25px;
+}
+
+.seller img{
+     margin: -10px 4px;
+ height: 30px;
+}
+
+.dots img{
+     padding: 23px 38px;
+}
+
+.items{
+     display: flex;
+     flex-direction: row;
+     gap: 4%;
+     padding: 18px 175px;
+     background-color: white;
+     margin: 15px;
+}
+
+.fashion img{
+     height: 80px;
+     
+}
+.electronics img{
+     height: 80px;
+}
+.sofa img{
+     height: 80px;
+}
+.toys img{
+     height: 80px;
+}
+.two_wheelers img {
+     height: 80px;
+}
+
+.cart_image img{
+          width: 98vw;
+          margin: 15px;
+          background-image: url(pic/summer.webp);
+     }
+     
+
+     
+
+.card{
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     margin: 15px;
+       padding: 15px;
+}
+
+figcaption{
+     text-align: center;
+}
+
+.text{
+     text-align: center;
+}
+
+.textt{
+     text-align: center;
+     font-weight: bold;
+}
+.cards{
+     display: flex;
+     margin: 10px -3px;
+     padding: 15px 0px;
+     gap: 5%;
+     
+}
+
+.card_item{
+     border: 2px solid   rgba(43, 76, 107, 0.32);
+     border-radius: 5px;
+   cursor:pointer;
+}
+.card_item:hover{
+     background-color: gainsboro;
+     box-shadow: 4px 4px 5px gainsboro;
+     transform: scale(1.01);
+        transition: 0.1s ease-in-out;
+     
+}
+.card_item img{
+     height: 175px;
+     justify-content: center;
+}
+
+
+footer{
+     background-color: black;
+     height: 200px;
+}
+
+.elements{
+     display: flex;
+     gap: 10%;
+     display: flex;
+  gap: 10%;
+  padding: 40px;
+  justify-content: center;
+  align-items: center
+     
+}
+
+.footer_card{
+     color: grey;
+     text-align: center;
+}
+.footer_items{
+     text-align: center;
+     color: white;
+}
